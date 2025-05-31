@@ -10,8 +10,8 @@ interface IBaseProps {
 }
 
 export const Base: React.FC<IBaseProps> = ({ baseColor }) => (
-  <div className={styles.OuterContainer} style={getStyleObject(BASE_SIZE, baseColor)}>
-    <div className={styles.InnerContainer} style={getStyleObject(INNER_BASE_SIZE)}>
+  <div className={styles.OuterContainer} style={getStyleObject(BASE_SIZE, BASE_SIZE, baseColor)}>
+        <div className={styles.InnerContainer} style={getStyleObject(INNER_BASE_SIZE, INNER_BASE_SIZE)}>
       <CoinPlaceholder baseColor={baseColor} />
       <CoinPlaceholder baseColor={baseColor} />
       <CoinPlaceholder baseColor={baseColor} />

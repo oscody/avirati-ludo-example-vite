@@ -13,11 +13,11 @@ export const CoinPlaceholder: React.FC<ICoinPlaceholderProps> = ({
 }) => (
   <div
     className={styles.Container}
-    style={getStyleObject(COIN_PLACEHOLDER_SIZE)}
-  >
+    style={getStyleObject(COIN_PLACEHOLDER_SIZE, COIN_PLACEHOLDER_SIZE)}
+    >
     <div
       className={styles.Circle}
-      style={getStyleObject(COIN_SIZE, baseColor)}
-    />
+      style={getStyleObject(COIN_SIZE, COIN_SIZE, baseColor)}
+      />
   </div>
 );
