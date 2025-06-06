@@ -9,8 +9,7 @@ import { BOARD_SIZE } from './globalConstants';
 import { getStyleObject } from './utils';
 import styles from './Ludo.module.css';
 
-export class Ludo extends React.PureComponent {
-  render() {
+export const Ludo = () => {
     return (
       <div className={styles.Container} style={getStyleObject(BOARD_SIZE, BOARD_SIZE)}>
         <Base baseColor={BaseColors.GREEN}/>
@@ -24,5 +23,4 @@ export class Ludo extends React.PureComponent {
         <Base baseColor={BaseColors.BLUE}/>
       </div>
     );
-  }
-}
+  };
