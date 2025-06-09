@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { WALKWAY_LENGTH, WALKWAY_WIDTH } from '../../globalConstants';
-import { WalkwayPosition } from '../../interfaces';
+import { WalkwayPosition } from '../../state/interfaces';
 import { getStyleObject } from '../../utils';
 import styles from './Container.module.css';
 import { Cell } from './components/Cell';

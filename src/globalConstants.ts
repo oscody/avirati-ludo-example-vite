@@ -1,4 +1,4 @@
-import { BaseColors } from './interfaces';
+import { BaseColors } from './state/interfaces';
 
 export const CELL_DIMENSION = 40; // pixels
 export const CELL_SIZE = 1;  
